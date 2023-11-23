@@ -18,6 +18,7 @@ jobs:
           name: "GitHub Parameters"
           command: |
             echo pipeline.trigger_parameters.github_app.commit_message: << pipeline.trigger_parameters.github_app.commit_message >>
+            echo pipeline.trigger_parameters.github_app.commit_title: << pipeline.trigger_parameters.github_app.commit_title >>
            
            
 # Orchestrate jobs using workflows
