@@ -27,6 +27,6 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-        filters:
-        branches:
-          ignore: /main/
+          filters:
+          branches:
+            ignore: /main/
